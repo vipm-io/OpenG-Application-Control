@@ -1,0 +1,59 @@
+-= UNRELEASED =-
+
+2005-07-22
+[FIX] [BUG 1243167] Fit VI Window to Contents/Largest Decoration now works for items with negative coordinates.
+
+
+-= oglib_appcontrol-2.7-1.ogp =-
+
+
+2005-01-27
+[FIX] Current VIs Reference, Current VIs Parents Reference: Added 0x02 option (Open Templates for Editing).  If called by a template, then need template reference.
+
+Changes from 2.6-1 --> 2.7-1
+--------------------------------
+2004-11-11 
+[FIX] Package now overwrites existing files in target location
+2004-11-12
+[FIX] "List VI Hierarch", "Is One Frontmost", "Save VI ConPane Image"
+      now open references to templates in edit mode
+
+Changes from 2.5-1 --> 2.6-1
+--------------------------------
+2004-11-06
+[FIX] "UnMangle VI Name.vi" supports files with many periods in name
+[FIX] "Mangle VI Name.vi" supports files with many periods in name
+
+Changes from 2.4-1 --> 2.5-1
+--------------------------------
+2004-09-20
+[FIX] Current VIs Namespace.vi was not working.
+
+Changes from 2.3-2 --> 2.4-1
+--------------------------------
+2004-03-19
+[MOD] "UnMangle VI Name.vi" is now a polyVI to handle strings or paths
+[NEW] "Find VI with Focus.vi" added to package
+[NEW] "Fit VI window to Content.vi" Fits a VI's front panel window
+      to its FP Contents.
+[MOD] "Fit VI window to Largest Decoration.vi" - 'border spacing' input
+      changed to a signed integer to allow a negative border size.
+[MOD] 'Get Frontmost VI.vi' now implemented with 'Find VI with Focus.vi'
+
+
+Changes from 2.2-2 --> 2.3-1
+--------------------------------
+2004-03-12
+[MOD] Close Obj Reference can optionally wait on VI(s) unloaded
+
+
+Changes from 2.1-2 --> 2.2-1
+--------------------------------
+2004-03-05
+[FIX] "Dist Build App from LLB (proxy).vi" works in 6.1 and 7.0
+
+
+Changes from 2.0-2 --> 2.1-1
+--------------------------------
+2003-12-01
+[FIX] 'Mangle VI Name' window title no longer shows '__ogtk'
