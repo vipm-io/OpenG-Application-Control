@@ -1,0 +1,2 @@
+- Create unit tests for all VIs
+- Update release notes
