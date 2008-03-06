@@ -2,3 +2,8 @@
 date=2007-01-07
 release_id=476684
 md5=b5bde36f4496adc6f30ea329885b892d
+
+[2.10]
+date=2008-03-06
+release_id=
+md5=d41d8cd98f00b204e9800998ecf8427e 
