@@ -15,7 +15,7 @@ Summary="OpenG Application Control Tools"
 
 License=BSD
 
-Copyright="2002 Cal-Bay Systems, Inc., 2002 Jean-Pierre Drolet, 2002-2006 Jim Kring, 2003 Paul F. Sullivan"
+Copyright="2002 Cal-Bay Systems, Inc., 2002 Jean-Pierre Drolet, 2002-2006 Jim Kring, 2003 Paul F. Sullivan, 2008 T. Plomp"
 
 Distribution="OpenG Toolkit"
 
@@ -25,7 +25,7 @@ Vendor=OpenG.org
 
 URL=http://opengtoolkit.sourceforge.net/appcontrol
 
-Packager="Jim Kring <jim@jimkring.com>"
+Packager="Ton Plomp <t.c.plomp@gmail.com>"
 
 
 [Dependencies]

@@ -1,1 +1,1 @@
-Changed description of the 'Current VIs reference.vi'
+[FIX] - Bug 1759176 resolved
