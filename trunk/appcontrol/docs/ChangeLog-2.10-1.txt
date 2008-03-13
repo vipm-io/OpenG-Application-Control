@@ -1,1 +1,1 @@
-[FIX] - Bug 1759176 resolved
+[FIX] - Bug 1759176 resolved, the help for 'Current VI ref' was incorrect, this has been resolved.

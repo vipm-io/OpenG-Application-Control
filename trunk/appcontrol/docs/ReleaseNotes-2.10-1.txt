@@ -1,1 +1,3 @@
-Documentation updates.
+-Documentation updates.
+The documenation of 'Get current VI ref' has been corrected.
+It showed the help of 'Get parents Ref'.
