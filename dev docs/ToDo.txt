@@ -1,2 +1,1 @@
-- Update release notes
-- Update "Dist Build App from LLB (proxy).vi" for LabVIEW 7.1, 8.0, and 8.2
+Some test rely on the test.vi or pre-build vi FP being open. Will need to review this.
