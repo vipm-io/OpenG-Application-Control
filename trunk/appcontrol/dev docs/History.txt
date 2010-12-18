@@ -1,9 +1,0 @@
-[2.9]
-date=2007-01-07
-release_id=476684
-md5=b5bde36f4496adc6f30ea329885b892d
-
-[2.10]
-date=2008-03-06
-release_id=584062
-md5=326a5c5f43613805de687ae50c91fc30
