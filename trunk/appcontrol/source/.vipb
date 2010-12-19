@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-18 15:13:18" Modified_Date="2010-12-18 17:20:14" Creator="Jonathon Green" Comments="" ID="6714a311b67ca36674bcd7fa12ef338a">
+<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-18 15:13:18" Modified_Date="2010-12-19 09:22:44" Creator="Jonathon Green" Comments="" ID="c2b3aa413d61a25c4cada3fa180967c5">
   <Library_General_Settings>
     <Package_File_Name>oglib_appcontrol</Package_File_Name>
-    <Library_Version>4.0.0.3</Library_Version>
+    <Library_Version>4.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
