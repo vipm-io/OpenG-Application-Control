@@ -1,1 +1,0 @@
-Some test rely on the test.vi or pre-build vi FP being open. Will need to review this.
