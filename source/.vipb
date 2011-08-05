@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-18 15:13:18" Modified_Date="2011-05-18 00:07:10" Creator="Jonathon Green" Comments="" ID="739eeef6b1646f6dfa2a696a7cc5aa31">
+<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-18 15:13:18" Modified_Date="2011-08-06 00:16:08" Creator="Jonathon Green" Comments="" ID="7a2f0cc9ecf21f117167e9b1dea7d65e">
   <Library_General_Settings>
     <Package_File_Name>oglib_appcontrol</Package_File_Name>
-    <Library_Version>4.0.0.6</Library_Version>
+    <Library_Version>4.1.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -36,10 +36,8 @@
       <Copyright>Copyright (c) 2002 Cal-Bay Systems, Inc.; 2002 Jean-Pierre Drolet; 2002-2006 Jim Kring; 2003 Paul F. Sullivan; 2008 T. Plomp; 2010-2011 Jonathon Green</Copyright>
       <Packager>OpenG.org</Packager>
       <URL>http://wiki.openg.org/Oglib_appcontrol</URL>
-      <Release_Notes>Package sources upgraded to LabVIEW 2009 (package now compatible with LV2009 or greater)
-Package build with VIPM 2010
-[FIX] 1962840 - Missing description in OpenG Application Control Tools
-[FIX] 3139605 - Add Polymorphic Selector Names of various VIs</Release_Notes>
+      <Release_Notes>[FIX] 3275377 - Memory Leak from "Current VIs Parents Ref.vi"
+[FIX] 275359 - 'Set Control Value {Variant}' function returns error</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -363,32 +361,6 @@ Package build with VIPM 2010
         </Position>
         <Icon>00000000</Icon>
         <Path>library\Fit VI window to Content.vi</Path>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get All Control Values {Variant}.vi</NameSub_Menu_Name>
-        <Short_Name>Get All Control Values {Variant}</Short_Name>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>library\Get All Control Values {Variant}.vi</Path>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get Control Value {Variant}.vi</NameSub_Menu_Name>
-        <Short_Name>Get Control Value {Variant}</Short_Name>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>library\Get Control Value {Variant}.vi</Path>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
