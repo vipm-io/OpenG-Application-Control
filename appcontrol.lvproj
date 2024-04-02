@@ -14,6 +14,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="tests" Type="Folder">
+			<Item Name="Open VI Clone Reference - Test Support" Type="Folder">
+				<Item Name="clone source.vi" Type="VI" URL="../tests/Open VI Clone Reference - Test Support/clone source.vi"/>
+			</Item>
 			<Item Name="Close Generic Object Refnum - Test Support" Type="Folder">
 				<Item Name="Close Generic Object Refnum test target.vi" Type="VI" URL="../tests/Close Generic Object Refnum - Test Support/Close Generic Object Refnum test target.vi"/>
 			</Item>
@@ -26,39 +29,10 @@
 				<Item Name="grandchild.vi" Type="VI" URL="../tests/List VI Hierarchy - Test Support/grandchild.vi"/>
 				<Item Name="top.vi" Type="VI" URL="../tests/List VI Hierarchy - Test Support/top.vi"/>
 			</Item>
-			<Item Name="Open VI Clone Reference - Test Support" Type="Folder">
-				<Item Name="clone source.vi" Type="VI" URL="../tests/Open VI Clone Reference - Test Support/clone source.vi"/>
-			</Item>
 			<Item Name="Wait on VIs Unloaded from Memory - Test Support" Type="Folder">
 				<Item Name="wait on unloaded test target.vi" Type="VI" URL="../tests/Wait on VIs Unloaded from Memory - Test Support/wait on unloaded test target.vi"/>
 			</Item>
-			<Item Name="TEST - Close Generic Object Refnum.vi" Type="VI" URL="../tests/TEST - Close Generic Object Refnum.vi"/>
-			<Item Name="TEST - Current VIs Namespace.vi" Type="VI" URL="../tests/TEST - Current VIs Namespace.vi"/>
-			<Item Name="TEST - Current VIs Namespace__NAMESPACE.vi" Type="VI" URL="../tests/TEST - Current VIs Namespace__NAMESPACE.vi"/>
-			<Item Name="TEST - Current VIs Parents Ref.vi" Type="VI" URL="../tests/TEST - Current VIs Parents Ref.vi"/>
-			<Item Name="TEST - Current VIs Reference.vi" Type="VI" URL="../tests/TEST - Current VIs Reference.vi"/>
-			<Item Name="TEST - Dist Build App from LLB (proxy).vi" Type="VI" URL="../tests/TEST - Dist Build App from LLB (proxy).vi"/>
-			<Item Name="TEST - Find VI with Focus.vi" Type="VI" URL="../tests/TEST - Find VI with Focus.vi"/>
-			<Item Name="TEST - Fit VI window to Content.vi" Type="VI" URL="../tests/TEST - Fit VI window to Content.vi"/>
-			<Item Name="TEST - Fit VI window to Largest Dec.vi" Type="VI" URL="../tests/TEST - Fit VI window to Largest Dec.vi"/>
-			<Item Name="TEST - Get All Control Values {Variant}.vi" Type="VI" URL="../tests/TEST - Get All Control Values {Variant}.vi"/>
-			<Item Name="TEST - Get ClassID Name.vi" Type="VI" URL="../tests/TEST - Get ClassID Name.vi"/>
-			<Item Name="TEST - Get Control Value {Variant}.vi" Type="VI" URL="../tests/TEST - Get Control Value {Variant}.vi"/>
-			<Item Name="TEST - Get Frontmost VI.vi" Type="VI" URL="../tests/TEST - Get Frontmost VI.vi"/>
-			<Item Name="TEST - Get Text Label Decs from VI.vi" Type="VI" URL="../tests/TEST - Get Text Label Decs from VI.vi"/>
-			<Item Name="TEST - Is One Frontmost.vi" Type="VI" URL="../tests/TEST - Is One Frontmost.vi"/>
-			<Item Name="TEST - is OpenG.vi" Type="VI" URL="../tests/TEST - is OpenG.vi"/>
-			<Item Name="TEST - Is VI-LIB.vi" Type="VI" URL="../tests/TEST - Is VI-LIB.vi"/>
-			<Item Name="TEST - List Open Front Panels.vi" Type="VI" URL="../tests/TEST - List Open Front Panels.vi"/>
-			<Item Name="TEST - List VI Hierarchy.vi" Type="VI" URL="../tests/TEST - List VI Hierarchy.vi"/>
-			<Item Name="TEST - Mangle VI Name.vi" Type="VI" URL="../tests/TEST - Mangle VI Name.vi"/>
-			<Item Name="TEST - Metrics-Advanced.vi" Type="VI" URL="../tests/TEST - Metrics-Advanced.vi"/>
-			<Item Name="TEST - Open Untitled VI.vi" Type="VI" URL="../tests/TEST - Open Untitled VI.vi"/>
-			<Item Name="TEST - Open VI Clone Reference.vi" Type="VI" URL="../tests/TEST - Open VI Clone Reference.vi"/>
-			<Item Name="TEST - Save VI ConPane Image.vi" Type="VI" URL="../tests/TEST - Save VI ConPane Image.vi"/>
-			<Item Name="TEST - Set Control Value {Variant}.vi" Type="VI" URL="../tests/TEST - Set Control Value {Variant}.vi"/>
-			<Item Name="TEST - UnMangle VI Name.vi" Type="VI" URL="../tests/TEST - UnMangle VI Name.vi"/>
-			<Item Name="TEST - Wait on VIs Unloaded from Memory.vi" Type="VI" URL="../tests/TEST - Wait on VIs Unloaded from Memory.vi"/>
+			<Item Name="test_openg_application_control.lvlib" Type="Library" URL="../tests/test_openg_application_control.lvlib"/>
 		</Item>
 		<Item Name="source" Type="Folder">
 			<Item Name="examples" Type="Folder"/>
@@ -68,49 +42,7 @@
 			</Item>
 			<Item Name="install scripts" Type="Folder"/>
 			<Item Name="library" Type="Folder">
-				<Item Name="Close Generic Object Refnum" Type="Folder">
-					<Item Name="Close Generic Object Refnum (Array VI).vi" Type="VI" URL="../source/library/Close Generic Object Refnum/Close Generic Object Refnum (Array VI).vi"/>
-					<Item Name="Close Generic Object Refnum (Array).vi" Type="VI" URL="../source/library/Close Generic Object Refnum/Close Generic Object Refnum (Array).vi"/>
-					<Item Name="Close Generic Object Refnum (Scalar VI).vi" Type="VI" URL="../source/library/Close Generic Object Refnum/Close Generic Object Refnum (Scalar VI).vi"/>
-					<Item Name="Close Generic Object Refnum (Scalar).vi" Type="VI" URL="../source/library/Close Generic Object Refnum/Close Generic Object Refnum (Scalar).vi"/>
-				</Item>
-				<Item Name="Mangle VI Name" Type="Folder">
-					<Item Name="Mangle VI Name (Path).vi" Type="VI" URL="../source/library/Mangle VI Name/Mangle VI Name (Path).vi"/>
-					<Item Name="Mangle VI Name (String).vi" Type="VI" URL="../source/library/Mangle VI Name/Mangle VI Name (String).vi"/>
-				</Item>
-				<Item Name="UnMangle VI Name" Type="Folder">
-					<Item Name="UnMangle VI Name (Path).vi" Type="VI" URL="../source/library/UnMangle VI Name/UnMangle VI Name (Path).vi"/>
-					<Item Name="UnMangle VI Name (String).vi" Type="VI" URL="../source/library/UnMangle VI Name/UnMangle VI Name (String).vi"/>
-				</Item>
-				<Item Name="ClassID Names Enum.ctl" Type="VI" URL="../source/library/ClassID Names Enum.ctl"/>
-				<Item Name="Close Generic Object Refnum.vi" Type="VI" URL="../source/library/Close Generic Object Refnum.vi"/>
-				<Item Name="Current VIs Namespace.vi" Type="VI" URL="../source/library/Current VIs Namespace.vi"/>
-				<Item Name="Current VIs Parents Ref.vi" Type="VI" URL="../source/library/Current VIs Parents Ref.vi"/>
-				<Item Name="Current VIs Reference.vi" Type="VI" URL="../source/library/Current VIs Reference.vi"/>
-				<Item Name="Dist Build App from LLB (proxy).vi" Type="VI" URL="../source/library/Dist Build App from LLB (proxy).vi"/>
-				<Item Name="Find Focus State.ctl" Type="VI" URL="../source/library/Find Focus State.ctl"/>
-				<Item Name="Find VI with Focus.vi" Type="VI" URL="../source/library/Find VI with Focus.vi"/>
-				<Item Name="Fit VI window to Content.vi" Type="VI" URL="../source/library/Fit VI window to Content.vi"/>
-				<Item Name="Fit VI window to Largest Dec.vi" Type="VI" URL="../source/library/Fit VI window to Largest Dec.vi"/>
-				<Item Name="Get All Control Values {Variant}.vi" Type="VI" URL="../source/library/Get All Control Values {Variant}.vi"/>
-				<Item Name="Get ClassID Name.vi" Type="VI" URL="../source/library/Get ClassID Name.vi"/>
-				<Item Name="Get Control Value {Variant}.vi" Type="VI" URL="../source/library/Get Control Value {Variant}.vi"/>
-				<Item Name="Get Frontmost VI.vi" Type="VI" URL="../source/library/Get Frontmost VI.vi"/>
-				<Item Name="Get Text Label Decs from VI.vi" Type="VI" URL="../source/library/Get Text Label Decs from VI.vi"/>
-				<Item Name="Is One Frontmost.vi" Type="VI" URL="../source/library/Is One Frontmost.vi"/>
-				<Item Name="is OpenG.vi" Type="VI" URL="../source/library/is OpenG.vi"/>
-				<Item Name="Is VI-LIB.vi" Type="VI" URL="../source/library/Is VI-LIB.vi"/>
-				<Item Name="List Open Front Panels.vi" Type="VI" URL="../source/library/List Open Front Panels.vi"/>
-				<Item Name="List VI Hierarchy.vi" Type="VI" URL="../source/library/List VI Hierarchy.vi"/>
-				<Item Name="Mangle VI Name.vi" Type="VI" URL="../source/library/Mangle VI Name.vi"/>
-				<Item Name="Metrics-Advanced.vi" Type="VI" URL="../source/library/Metrics-Advanced.vi"/>
-				<Item Name="Open Untitled VI.vi" Type="VI" URL="../source/library/Open Untitled VI.vi"/>
-				<Item Name="Open VI Clone Reference.vi" Type="VI" URL="../source/library/Open VI Clone Reference.vi"/>
-				<Item Name="Save VI ConPane Image.vi" Type="VI" URL="../source/library/Save VI ConPane Image.vi"/>
-				<Item Name="Set Control Value {Variant}.vi" Type="VI" URL="../source/library/Set Control Value {Variant}.vi"/>
-				<Item Name="UnMangle VI Name.vi" Type="VI" URL="../source/library/UnMangle VI Name.vi"/>
-				<Item Name="Untitled.vit" Type="VI" URL="../source/library/Untitled.vit"/>
-				<Item Name="Wait on VIs Unloaded from Memory.vi" Type="VI" URL="../source/library/Wait on VIs Unloaded from Memory.vi"/>
+				<Item Name="openg_application_control.lvlib" Type="Library" URL="../source/library/openg_application_control.lvlib"/>
 			</Item>
 			<Item Name="user docs" Type="Folder">
 				<Item Name="License Agreement.txt" Type="Document" URL="../source/user docs/License Agreement.txt"/>
