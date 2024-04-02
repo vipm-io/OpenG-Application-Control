@@ -1,0 +1,14 @@
+[project]
+labview-version = 2009
+vipc = 'source\.vipc'
+
+[nipm]
+
+[vipm]
+
+[vipm.dependencies]
+oglib_error = "6.0.0.26"
+oglib_file = "6.0.1.27"
+oglib_lvdata = "6.0.0.45"
+oglib_string = "6.0.2.35"
+oglib_time = "6.0.1.6"
